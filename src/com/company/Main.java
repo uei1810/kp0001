@@ -299,10 +299,6 @@ public class Main {
 
              for (int i = 0; i < n; i++)
                  System.out.print("x[" + i + "] = " + x[i] + ", ");
-             //System.out.println("до чеека");
-             //if (f == 0){
-               //System.out.println("выходим и останавливаем backtrack");  return;}
-            // check();
          }
          if (f == 0) {
              System.out.println("зашли в if, f==0, и запускаем return из backtrack"); t = 0;
