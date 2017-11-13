@@ -90,8 +90,6 @@ public class Main {
         int k = j;
         int d = 0;
 
-        int aa[] = new int[n - j + 1]; int bb[] = new int[n - j + 1];
-
 
             while (sum <= c) {
                 m = m + 1;
@@ -156,7 +154,7 @@ public class Main {
              {
                  System.out.print(bb.get(i) + " ");
              }
-             ;
+
              for (int i = 0; i < pp.size(); i++)
              {
                  System.out.print(pp.get(i) + " ");
@@ -168,7 +166,7 @@ public class Main {
              }
 
              check();
-             if (t==0) return;;
+             if (t==0) return;
          }
          if (j <= n - 1)
          {
